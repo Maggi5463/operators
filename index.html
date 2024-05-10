@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=19;
+        var age=(a>=18)?"u are an aadult":"u are not an adult";
+        console.log(age);// u are an adult
+
+        var b=(a=0)?true:false;
+        console.log(b);//false
+
+        //non zero
+        var ab=(c=5)?true:false;
+        console.log(ab);//true
+
+        var b=(c="")?true:false;
+        console.log(b);//false
+
+        var d=(a="hello")?true:false;
+        console.log(d);//true
+
+        var b=(c=" ")?true:false;
+        console.log(b);//true
+
+        var b=(c=true)?true:false;
+        console.log(b);//true
+
+        var b=(c=false)?true:false;
+        console.log(b);//false
+
+        var b=(c=null)?true:false;
+        console.log(b);//false
+
+        var b=(c=undefined)?true:false;
+        console.log(b);//false
+
+        var b=(c=NaN)?true:false;
+        console.log(b);//false
+
+        var b=(c=[])?true:false;
+        console.log(b);//true
+
+       var a=[1,2];
+        var c=(a[0]==5)?true:false;
+        console.log(c);
+
+        var b=(c={})?true:false;
+        console.log(b);//true
+
+
+    </script>
+</body>
+</html>
